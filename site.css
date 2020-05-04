@@ -24,6 +24,13 @@
   color: #a5a5a5;
 }
 
+.about_text{
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: left;
+}
+
 .vertical-container {
   display: flex;
   flex-direction: column;
