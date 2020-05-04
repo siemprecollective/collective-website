@@ -63,8 +63,15 @@ h3{
   font-weight: normal;
 }
 
+h6{
+  margin-top: 6px;
+  color: #afafaf;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
 .logo img{
-  width: 23px;
+  width: 34px;
   margin: 0px;
   padding-right: 2px;
 }
@@ -76,49 +83,21 @@ h3{
   margin-top: 4px;
 }
 
-#emailInput{
-  outline: none;
-  height: 24px;
-  border: 1px solid #b5b5b5;
-  border-radius: 10px;
-  margin: 5px;
-  padding-left: 8px;
-}
+#wrist_button{ border-color: #827fff}
+#wrist_button a{      color: #827fff}
+#wrist_button a:hover{color: #423eff}
 
-#emailSubmit {
-  width: 250px;
-  margin: auto;
-}
+#video_button{ border-color: #76beff}
+#video_button a{      color: #76beff}
+#video_button a:hover{color: #3ea4ff}
 
-#emailSubmit div {
-  padding-bottom: 6px;
-  padding-top: 6px;
-}
+#vr_button   { border-color: #ff77a8}
+#vr_button    a{      color: #ff77a8}
+#vr_button    a:hover{color: #ff3c82}
 
-#emailSubmit button {
-  height: 24px;
-  padding: 2px 6px 2px 6px;
-  background-color: white;
-  border-radius: 6px;
-  border: 1px solid black;
-  color: black;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-}
-
-#emailSubmit input {
-  border: 1px solid #dedede;
-  border-radius: 4px;
-  height: 20px;
-  padding-left: 8px;
-  margin-right: 5px;
-  width: 150px;
-  font-style: italic;
-  font-size: 12px;
-  margin-right: 5px; width: 150px;
-}
+#town_button { border-color: #ffa375}
+#town_button  a{      color: #ffa375}
+#town_button  a:hover{color: #ff8243}
 
 p.motto{
   font-family: Calibri;
@@ -201,12 +180,30 @@ div.post_text{
   margin: auto;
 }
 
+div.read_button{
+  width: 100px;
+  border: 1px solid;
+  border-radius: 6px;
+  padding-top: 6px;
+  margin: 20px auto 20px auto;
+}
+
 .post a{
   color: black;
 }
 
 .post a:hover{
   color: #a5a5a5;
+}
+
+.intro_text a{
+  color: black;
+  text-decoration: underline;
+}
+
+.intro_text a:hover{
+  color: #a5a5a5;
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 550px) {
