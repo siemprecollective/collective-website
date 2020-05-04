@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="https://siemprepresence.github.io/fontawesome/css/all.css">
   <link rel="stylesheet" href="site.css">
   <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="fonts.css">
   <link rel="shortcut icon" href="favicon.ico" />
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162028230-2"></script>
   <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
@@ -21,10 +20,11 @@
   <meta property="og:description"        content="Social telepresence for your closest friends, families and communities." />
   <!-- <meta property="og:image"              content="" /> -->
 </head>
-<body style="margin: 200px auto 0px auto; background-color: '#ffffff'">
+<body style="margin: 20px; background-color: '#ffffff'">
   <div style="position: relative; width: 100%; height: 100%; text-align: center" id="home">
     <!-- Logo at the top -->
     <div class="header">
+      <a href="./index.html">
       <div class="logo" style="display: table; margin: 26px auto 0 auto;">
         <img src="Logo.png" alt="Siempre Logo" style="vertical-align: middle;">
         <p style="font-family: montserratmedium; vertical-align: middle; display: inline-block;">SIEMPRE</p>
@@ -33,35 +33,126 @@
     </div>
     
     <!-- Intro statement -->
-    <div class="intro" style="margin: 4px auto 0px; padding: 10px; max-width: 305px; min-height: 400px; line-height: 25px; ">
+    <div class="intro" style="margin: 4px auto 0px; padding: 10px; max-width: 355px; line-height: 25px; ">
       <div style="text-align: left">
-        <p>Siempre develops long-term infrastructure for human relationships.</p>
+        <p>At Siempre, we develop systems that help us support fulfilling long-term relationships with our closest friends, families, and communities, no matter where they are.</p>
+        <p>We're sharing our findings here so that these ideas aren't limited by our own ability or circumstances. We hope you'll find some of them interesting.</p>
+        <span style="float: right;"><p>Always with love,<br>Cyrus, Phillip and Kumail</p></span>
+          <div class="timeline" style="height: 96px; margin-bottom: 0px"></div>
+        </div>
+      </div>
+    </div>
 
-        <p>We are currently building <a href="town.siempre.io">Online Town</a>, a better space for gathering people online.</p>
+    <!-- Intro for "Online Town" -->
+    <div class="post">
+      <h3>Online Town</h3>
+      <div class="post_text">
+        <p>A new space for gathering online.</p>
+        <p>Like Zoom and Pokemon combined. Walk in and out of different conversations, just like you would in real life.</p>
+      </div>
+      <p><b><a href="https://town.siempre.io">"I want to go to there"</a></b><br></p>
 
-        <p>We're excited to serve you.</p>
+      <img src="/img/onlinetown/screenshot-nyc.png" alt="Screenshot from Online Town, showing a 2D map with avatars and corresponding webcam feeds for the users below the map. Colored borders around the videos and avatars helps users know who they're interacting with.">
+      <div class="timeline" style="height: 30px;"></div>
+      <!--
+      <div id="online-town-vote" class="vote-container" onclick="onClickVote('online-town-vote')">
+        I want more of this!
+      </div>
+      -->
+    </div>	
+
+    <!-- Intro for "Concept"
+    <div class="post">
+      <h3>Multi-way Passive Presence</h3>
+      <div class="post_text" style="width: 350px;">
+        <p>What if you could have multiple people around you without those people also having to be around each other? <br><br>This model makes new kinds of experiences possible, including ones with little-to-no coordination or scheduling.</p>
+      </div>
+      <p><b><a href="./passivepresence.html">Read More</a></b></p>
+      <div class="timeline" style="height: 30px;"></div>
+    </div>-->
+
+    <!-- Intro for "Experiments in VR" -->
+    <div class="post" id="virtual_reality">
+      <h3>Experiments in Virtual Reality</h3>
+      <div class="post_text">
+        <p>Explorations in living, working and socializing with VR + using VR as a medium for understanding presence in general</p>
+      </div>
+       <p><b><a href="./vr.html">Read More</a></b></p>
+
+      <img src="/img/vr/88121671.png" alt="Screenshot shows a digital reconstruction of our physical office space inside virtual reality. It shows the entire Siempre team at their respective desks but as 3D avatars that we designed to look like our physical selves. Our monitors are also represented in VR and the screenshot shows that they are visible to all team members. There is also a virtual whiteboard that has our notes from real life.">
+      <div class="timeline" style="height: 30px;"></div>
+    </div>	
+
+    <!-- Intro for "Video" -->
+    <div class="post" id="siempre_video">
+      <h3>Video</h3>
+      <div class="post_text" style="width: 315px;">
+        <p>Used daily by our friends and family, this is our longest-running experiment in remote co-living.</p><br>
+        <p>It makes it really easy for you to see all of the people you love and to help them see you without coordination and without those people having to see each other either.</p>
+      </div>
+      <b><a href="./video.html">Read More</a></b></p>
+
+      <img src="/img/video/tablet-scrubbed.png" alt="Photo of the tablet in use. Seven video feeds are displayed. Each is of a friend who is on camera and can also see you through the camera on the tablet. Each video has a colored border representing the status of the user. In the photo, four users are green, two are blue and one is red. There are also a number of gray regions with profile pictures depicting users who are offline. The photo is heavily blurred to protect the privacy of the users in the photo.">
+      <div class="timeline" style="height: 30px;"></div>
+
+    </div>	
+
+    <!-- Intro for "Wearable" -->
+    <div class="post" id="wearable">
+      <h3>Wrist Band</h3>
+      <div class="post_text">
+        <p>Two-way audio with the people closest to you. Occasionally more accessible than any other device.</p>
+      </div>
+       <p><b><a href="./wristband.html">Read More</a></b></p>
+
+      <img src="/img/band/prototype.jpg" alt="Photo depicts a prototype of an electronic wrist band in the hand of a Siempre team member. There are exposed wires, buttons, lights and other components. The band is white, curved and appears to be 3D-printed.">
+      <div class="timeline" style="height: 30px;"></div>
+    </div>	
+
+    <!-- Intro for "Instant Talk" -->
+    <div class="post" id="instant_talk">
+      <h3>Instant Talk</h3>
+      <div class="post_text">
+        <p>An app that lets you know who is free based on their location, headphone usage and manual input. You tap on a friend's name and it'll let audio pass through immediately, as if it was a pre-accepted call.</p>
       </div>
 
-      <img src="https://siempre.io/img/office/friendship.jpg" 
-          style="object-fit: cover; object-position: 10px -64px; height: 220px; width: 240px; margin-top: 16px;"
-          alt="Photo of the Siempre team. Two team members are holding the third. The third looks happy. There is a painting in the background.">
+      <img src="/img/instatalk/screenshot2-scrubbed.jpg" alt="Screenshot of an iOS interface indicating the names of a few users who are free to talk">
+      <div class="timeline" style="height: 30px;"></div>
+    </div>	
 
-    </div>
+    <!-- Intro for "Working with Friends" -->
+    <div class="post" id="working_with_friends">
+      <h3>Working with Friends</h3>
+      <div class="post_text">
+      <p>Our most important experiment to date.</p>
+      <p>This one is still in progress.</p>
+      </div>
 
-    <div class="directory" style="margin: 30px auto 60px; max-width: 305px; line-height: 25px; ">
-        <p><a href="">Values</a></p>
-        <p><a>Strategy</a></p>
-        <p><a href="">Alternatives</a></p>
-        <p><a>Team</a></p>
-        <p><a>History</a></p>
-        <p><a>Get involved</a></p>
-        <p><a>Stay in touch</a></p>
-    </div>
+      <img src="/img/office/friendship.jpg" style="max-width: 80%" alt="Photo of the Siempre team. Two team members are holding the third. The third looks happy. There is a painting in the background.">
+      <div class="timeline" style="height: 30px;"></div>
+    </div>	
 
+
+
+    <div class="post" id="mailing_list">
+      <h3>Mailing List</h3>
+      <div class="post_text">
+        <p>If you'd like to follow along, you can share your email below. We won't use it for any other purposes.</p>
+      </div>
+      <div id="emailSubmit">
+        <input id="emailInput" placeholder="Email Address...">
+        <button type="button" onclick="onSubmitEmail()">Submit</button>
+      </div>
+      <div class="timeline" style="height: 30px;"></div>
+    </div>	
 
     <!-- Footer -->
     <div class="footer">
+      <a href="./index.html"><img src="Logo.png" alt="Siempre Logo" style="width: 23px; margin: auto;"></img></a>
       <p style="margin-bottom: 20px;">Built with love in <a href="./sanbruno.html">San Bruno</a>, CA. USA</p>
+
+      <p><a href="https://town.siempre.io">Online Town</a> | <a href="./video.html">Video</a> | <a href="./vr.html">VR</a> | <a href="./wristband.html">Wearable</a> | <a href="./index.html#home">Home</a></p>
+      <p><a href="./about.html">About Us</a> | <a href="mailto:hello@siempre.io">Contact</a> | <a href="./index.html#mailing_list">Mailing List</a> | <a href="./privacy.html">Privacy Policy</a></p>
       <a href="./index.html"><p>© 2020 Siempre Inc.</p></a>
     </div>
   </div>

@@ -1,7 +1,66 @@
+@font-face {
+  font-family: 'montserratlight';
+  src: url('fonts/montserrat-light-webfont.woff2') format('woff2'),
+     url('fonts/montserrat-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratregular';
+  src: url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
+     url('fonts/montserrat-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratmedium';
+  src: url('fonts/montserrat-medium-webfont.woff2') format('woff2'),
+     url('fonts/montserrat-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratsemibold';
+  src: url('fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+     url('fonts/montserrat-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratitalic';
+  src: url('fonts/montserrat-italic-webfont.woff2') format('woff2'),
+     url('fonts/montserrat-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'montserratmedium_italic';
+  src: url('fonts/montserrat-mediumitalic-webfont.woff2') format('woff2'),
+     url('fonts/montserrat-mediumitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 *{
-  font-family: montserratregular;
-  font-size: 14px;
+  font-family: calibri;
+  font-size: 16px;
   margin: 0px;
+}
+
+h2{
+  font-size: 22px;
+  font-weight: normal;
+}
+
+h3{
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .logo img{
@@ -17,45 +76,166 @@
   margin-top: 4px;
 }
 
+#emailInput{
+  outline: none;
+  height: 24px;
+  border: 1px solid #b5b5b5;
+  border-radius: 10px;
+  margin: 5px;
+  padding-left: 8px;
+}
+
+#emailSubmit {
+  width: 250px;
+  margin: auto;
+}
+
+#emailSubmit div {
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+
+#emailSubmit button {
+  height: 24px;
+  padding: 2px 6px 2px 6px;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+#emailSubmit input {
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  height: 20px;
+  padding-left: 8px;
+  margin-right: 5px;
+  width: 150px;
+  font-style: italic;
+  font-size: 12px;
+  margin-right: 5px; width: 150px;
+}
+
+p.motto{
+  font-family: Calibri;
+  font-size: 13.75px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
 .intro p{
   margin-top: 14px;
   margin-bottom: 14px;
 }
 
-.intro a{
-  font-family: montserratsemibold;
-  text-decoration: none;
+.post p{
+  margin-top: 1.4px;
+  margin-bottom: 9px;
+}
+
+.post img{
+  margin-top: 10px;
+  max-width: 350px;
+}
+/*
+.vote-container {
+  position: absolute;
+  left: -140px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: black solid 1px;
+  padding: 7px 10px;
+  border-radius: 7px;
+}
+*/
+/*.selected {
+  color: green;
+  border: green solid 1px;
+}
+*/
+div .timeline{
+  margin: 5px auto 10px auto;
+  width: 0px;
+  border-left: 1px solid black;
+}
+
+.content div {
+  height: 90px;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+.collapsible {
+  cursor: pointer;
+}
+
+.uni-expandable {
+  cursor: pointer;
+}
+
+.content {
+  display: none;
+  overflow: hidden;
+}
+
+.content span {
+  margin-top: -10px;
+}
+
+div.post{
+  margin: auto;
+  max-width: 400px;
+  text-align: center
+}
+
+div.post_text{
+  width: 300px;
+  padding-top: 10px;
+  margin: auto;
+}
+
+.post a{
   color: black;
 }
 
-.intro a:hover{
+.post a:hover{
   color: #a5a5a5;
 }
 
-.directory p{
-  margin-top: 14px;
-  margin-bottom: 14px;
-}
-
-.directory a{
-  font-family: montserratsemibold;
-  text-decoration: none;
-  color: black;
-}
-
-.directory a:hover{
-  color: #a5a5a5;
-}
-
-
-.footer p{
-  color: black;
-}
-
-.footer a{
-  color: black;
-}
-
-.footer a:hover{
-  color: #a5a5a5;
+@media only screen and (max-width: 550px) {
+  h3{
+    margin: 10px auto 10px auto;
+  }
+  .logo img{
+    width: 28px;
+    margin: 1px;
+    padding-right: 2px;
+  }
+  .logo p{
+    font-size: 30px;
+    margin: 2px;
+  }
+  p.motto{
+    font-family: Calibri;
+    font-size: 18.5px;
+  }
+  .post img{
+    margin-top: 10px;
+    max-width: 100%;
+  }
+  .content div {
+    height: 90px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .content span {
+    margin-top: -10px;
+  }
 }
