@@ -1,0 +1,171 @@
+@font-face {
+  font-family: 'montserratlight';
+  src: url('fonts/montserrat-light-webfont.woff2') format('woff2'),
+     url('fonts/montserrat-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratregular';
+  src: url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
+     url('fonts/montserrat-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratmedium';
+  src: url('fonts/montserrat-medium-webfont.woff2') format('woff2'),
+     url('fonts/montserrat-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratsemibold';
+  src: url('fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+     url('fonts/montserrat-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'montserratitalic';
+  src: url('fonts/montserrat-italic-webfont.woff2') format('woff2'),
+     url('fonts/montserrat-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'montserratmedium_italic';
+  src: url('fonts/montserrat-mediumitalic-webfont.woff2') format('woff2'),
+     url('fonts/montserrat-mediumitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  font-family: calibri;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.logo img{
+  width: 23px;
+  margin: 0px;
+  padding-right: 2px;
+}
+
+.logo p{
+  font-size: 22px;
+  margin: 2px;
+}
+
+a{
+  color: black;
+}
+
+ul{
+  text-align: left;
+}
+
+h1{
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+h2{
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+h3{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+h4{
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+ul{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+li{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+div.post{
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 400px;
+}
+
+div.post_text{
+  width: 400px;
+  padding-top: 10px;
+  text-align: left;
+}
+
+div .timeline{
+  margin: 5px auto 10px auto;
+  width: 0px;
+  border-left: 1px solid black;
+}
+
+.post p{
+  margin-top: 1.4px;
+  margin-bottom: 9px;
+
+  line-height: 1.4em;
+  letter-spacing: 0px;
+}
+
+.post img{
+  margin-top: 10px;
+  max-width: 350px;
+}
+
+.link a{
+  color: black;
+}
+
+.link:hover{
+  color: #a5a5a5;
+}
+
+.link img:hover{
+  color: #a5a5a5;
+  filter: opacity(0.5);
+}
+
+@media only screen and (max-width: 550px) {
+  h3{
+    margin: 10px auto 10px auto;
+  }
+  .logo img{
+    width: 28px;
+    margin: 1px;
+    padding-right: 2px;
+  }
+  .logo p{
+    font-size: 30px;
+    margin: 2px;
+  }
+  .post img{
+    margin-top: 10px;
+    max-width: 100%;
+  }
+}

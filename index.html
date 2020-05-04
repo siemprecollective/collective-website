@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Siempre</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://siemprepresence.github.io/fontawesome/css/all.css">
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="shortcut icon" href="favicon.ico" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162028230-2"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-firestore.js"></script>
+  <script defer src="https://siemprepresence.github.io/fontawesome/js/all.js"></script>
+  <script src="./site.js"></script>
+  <script src="./index.js"></script>
+  <meta property="og:url"                content="http://www.siempre.io/" />
+  <meta property="og:type"               content="website" />
+  <meta property="og:title"              content="Siempre" />
+  <meta property="og:description"        content="Social telepresence for your closest friends, families and communities." />
+  <!-- <meta property="og:image"              content="" /> -->
+</head>
+<body style="margin: 200px auto 0px auto; background-color: '#ffffff'">
+  <div style="position: relative; width: 100%; height: 100%; text-align: center" id="home">
+    <!-- Logo at the top -->
+    <div class="header">
+      <div class="logo" style="display: table; margin: 26px auto 0 auto;">
+        <img src="Logo.png" alt="Siempre Logo" style="vertical-align: middle;">
+        <p style="font-family: montserratmedium; vertical-align: middle; display: inline-block;">SIEMPRE</p>
+      </div>
+      </a>
+    </div>
+    
+    <!-- Intro statement -->
+    <div class="intro" style="margin: 4px auto 0px; padding: 10px; max-width: 305px; min-height: 400px; line-height: 25px; ">
+      <div style="text-align: left">
+        <p>Siempre develops long-term infrastructure for human relationships.</p>
+
+        <p>We are currently building <a href="town.siempre.io">Online Town</a>, a better space for gathering people online.</p>
+
+        <p>We're excited to serve you.</p>
+      </div>
+
+      <img src="https://siempre.io/img/office/friendship.jpg" 
+          style="object-fit: cover; object-position: 10px -64px; height: 220px; width: 240px; margin-top: 16px;"
+          alt="Photo of the Siempre team. Two team members are holding the third. The third looks happy. There is a painting in the background.">
+
+    </div>
+
+    <div class="directory" style="margin: 30px auto 60px; max-width: 305px; line-height: 25px; ">
+        <p><a href="">Values</a></p>
+        <p><a>Strategy</a></p>
+        <p><a href="">Alternatives</a></p>
+        <p><a>Team</a></p>
+        <p><a>History</a></p>
+        <p><a>Get involved</a></p>
+        <p><a>Stay in touch</a></p>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer">
+      <p style="margin-bottom: 20px;">Built with love in <a href="./sanbruno.html">San Bruno</a>, CA. USA</p>
+      <a href="./index.html"><p>© 2020 Siempre Inc.</p></a>
+    </div>
+  </div>
+	<script>
+    var coll = document.getElementsByClassName("uni-expandable");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+      this.style.display = "none";
+      });
+    }
+	</script>
+</body>
+</html>
