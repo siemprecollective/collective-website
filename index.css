@@ -99,6 +99,10 @@ h6{
 #town_button  a{      color: #ffa375}
 #town_button  a:hover{color: #ff8243}
 
+#holochat_button { border-color: #3d78da}
+#holochat_button  a{      color: #3d78da}
+#holochat_button  a:hover{color: #3d78da}
+
 p.motto{
   font-family: Calibri;
   font-size: 13.75px;
