@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://siemprecollective.github.io/fontawesome/css/all.css">
   <link rel="stylesheet" href="site.css">
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="fonts.css">
   <link rel="shortcut icon" href="favicon.ico" />
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162028230-2"></script>
   <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
@@ -46,7 +47,7 @@
         <p>We're the Siempre Collective.</p>
         <p style="text-indent: 40px">For over a year, we developed systems that helped us support fulfilling long-term relationships with our closest friends, families, and communities, no matter where they were.</p>
         <p class="intro_text" style="text-indent: 40px">Our last experiment, <a href="https://theonline.town/">Online Town</a>,  is now being continued by the team at <a href="https://www.gather.town">Gather</a>.</p>
-        <p style="text-indent: 40px">We're sharing the rest of our work below so that these ideas aren't limited by our ability or circumstances. We hope you'll find them valuable.</p>
+        <p class="intro_text" style="text-indent: 40px">We've also <a href="./public.html">open-sourced all work</a> so that the future of these ideas isn't limited by our ability or circumstances. We hope you'll put them to good use.</p>
         <span style="float: right;"><p>Always with love,<br>Cyrus, Phillip and Kumail</p></span>
           <div class="timeline" style="height: 96px; margin-bottom: 0px"></div>
         </div>
@@ -54,7 +55,7 @@
     </div>
 
     <!-- Intro for "Online Town" -->
-    <div class="post">
+    <div class="post" id="online_town">
       <h3>Online Town</h3>
       <h6>June 20, 2019 + March-April 2020</h6>
       <div class="post_text">
@@ -63,6 +64,9 @@
       </div>
       <div class="read_button" id="town_button">
           <p><b><a href="https://town.siempre.io">Go to Town</a></b><br></p>
+      </div>
+      <div class="read_button">
+          <p><b><a href="./public.html#online_town">See the code</a></b><br></p>
       </div>
       <img src="img/onlinetown/demo.gif" alt="Screenshot from Online Town, showing a 2D map with avatars and corresponding webcam feeds for the users below the map. Colored borders around the videos and avatars helps users know who they're interacting with.">
       <div class="timeline" style="height: 30px;"></div>
@@ -79,6 +83,9 @@
       <div class="read_button" id="vr_button">
           <p><b><a href="./vr.html">Read More</a></b></p>
       </div>
+      <div class="read_button">
+          <p><b><a href="./public.html#virtual_reality">See the code</a></b><br></p>
+      </div>
       <img src="img/vr/88121671.png" alt="Screenshot shows a digital reconstruction of our physical office space inside virtual reality. It shows the entire Siempre team at their respective desks but as 3D avatars that we designed to look like our physical selves. Our monitors are also represented in VR and the screenshot shows that they are visible to all team members. There is also a virtual whiteboard that has our notes from real life.">
       <div class="timeline" style="height: 30px;"></div>
     </div>	
@@ -93,6 +100,9 @@
       </div>
       <div class="read_button" id="video_button">
           <b><a href="./video.html">Read More</a></b></p>
+      </div>
+      <div class="read_button">
+          <p><b><a href="./public.html#siempre_video">See the code</a></b><br></p>
       </div>
       <img src="img/video/tablet-scrubbed.png" alt="Photo of the tablet in use. Seven video feeds are displayed. Each is of a friend who is on camera and can also see you through the camera on the tablet. Each video has a colored border representing the status of the user. In the photo, four users are green, two are blue and one is red. There are also a number of gray regions with profile pictures depicting users who are offline. The photo is heavily blurred to protect the privacy of the users in the photo.">
       <div class="timeline" style="height: 30px;"></div>
@@ -109,6 +119,9 @@
       <div class="read_button" id="wrist_button">
        <p><b><a href="./wristband.html">Read More</a></b></p>
       </div>
+      <div class="read_button">
+          <p><b><a href="./public.html#wrist_band">See the code</a></b><br></p>
+      </div>
       <img src="img/band/prototype.jpg" alt="Photo depicts a prototype of an electronic wrist band in the hand of a Siempre team member. There are exposed wires, buttons, lights and other components. The band is white, curved and appears to be 3D-printed.">
       <div class="timeline" style="height: 30px;"></div>
     </div>	
@@ -119,6 +132,9 @@
       <h6>July 2019</h6>
       <div class="post_text">
         <p>An app that lets you know who is free based on their location, headphone usage and manual input. You tap on a friend's name and it'll let audio pass through immediately, as if it was a pre-accepted call.</p>
+      </div>
+      <div class="read_button">
+          <p><b><a href="./public.html#instant_talk">See the code</a></b><br></p>
       </div>
 
       <img src="img/instatalk/screenshot2-scrubbed.jpg" alt="Screenshot of an iOS interface indicating the names of a few users who are free to talk">
@@ -133,6 +149,9 @@
         <p>Our neighbors told us they cared about Halloween a lot.</p>
         <p>This is what we built to surprise them.</p>
       </div>
+      <div class="read_button">
+          <p><b><a href="./public.html#telepresence_robot">See the code</a></b><br></p>
+      </div>
       <img src="img/more/robot_1.jpg" alt="Photo of robotic humanoid sitting in chair">
       <div class="timeline" style="height: 30px;"></div>
     </div> 
@@ -146,6 +165,9 @@
         <p>Move your head around and you'd see different parts of the room on the other side!</p>
         <p>Normal calls only give you a fixed reference frame.</p>
       </div>
+      <div class="read_button">
+          <p><b><a href="./public.html#perspective_video">See the code</a></b><br></p>
+      </div>
       <div class="timeline" style="height: 30px;"></div>
     </div>  
 
@@ -155,6 +177,9 @@
       <h6>June-July 2019</h6>
       <div class="post_text">
         <p>An iOS app to lower the friction, awkwardness and cost of asking your friends to help you.</p>
+      </div>
+      <div class="read_button">
+          <p><b><a href="./public.html#permiso">See the code</a></b><br></p>
       </div>
       <div style="width: 320px; height: 260px; margin: 30px auto;">
         <div style="overflow: hidden; width: 150px; height: 260px; float: left;">
@@ -178,6 +203,9 @@
       <div class="post_text">
         <p>What if you could grab dinner with your friends no matter where they were?</p>
         <p>Just go to your nearest portal-enabled restaurant!</p>
+      </div>
+      <div class="read_button">
+          <p><b><a href="./public.html#restaurants">See the code</a></b><br></p>
       </div>
       <div style="width: 414px;height: 240px;margin: 30px auto;">
         <div style="overflow: hidden; height: 240px;float: left;">
@@ -203,6 +231,9 @@
         <p>A real-time chat client where the letters stream out of sight as you type them.</p>
         <p>Designed to help you be in the moment.</p>
       </div>
+      <div class="read_button">
+          <p><b><a href="./public.html#letter_chat">See the code</a></b><br></p>
+      </div>
       <div class="timeline" style="height: 30px;"></div>
     </div>  
 
@@ -214,7 +245,7 @@
         <p>This was our first project together. It combines a 3D camera with a 3D display to make it feel like you're talking to a live hologram of your friend!</p>
       </div>
       <div class="read_button" id="holochat_button">
-        <p><b><a href="https://twitter.com/i/status/1084256355001737216">Watch it run</a></b><br></p>
+        <p><b><a href="https://twitter.com/i/status/1084256355001737216">Watch demo</a></b><br></p>
       </div>
       <img src="img/more/img_0512.jpg" alt="Photo of a holographic display with Phillip, Cyrus and Kumail in it">
       <div class="timeline" style="height: 30px;"></div>
